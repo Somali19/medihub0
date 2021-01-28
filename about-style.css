@@ -1,0 +1,179 @@
+html,body {
+   scroll-behavior: smooth;
+   
+     height: 100%;
+}
+body{
+
+  margin: 0;
+width: 100%;
+overflow-x: hidden;
+
+
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+video{
+    outline: 0px;
+}
+  .navbar { 
+    -webkit-transition:padding 0.2s ease;
+    -moz-transition:padding 0.2s ease; 
+    -o-transition:padding 0.2s ease;        
+    transition:padding 0.2s ease;  
+
+    }
+  
+ 
+  
+  .affix {
+    padding-top: 0.002em !important;
+    padding-bottom: 0.002em !important;
+    -webkit-transition:padding 1s linear;
+    -moz-transition:padding 1s linear;  
+    -o-transition:padding 1s linear;         
+    transition:padding 1s linear; 
+
+  }
+
+footer
+{
+  position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+ }
+
+
+.navbar-brand {
+font-family: 'Grenze Gotisch', cursive;
+font-weight: bold;
+font-size: 25px;
+
+}
+.nav-link {
+
+font-family: 'PT Serif', serif;
+font-size: 16px;
+margin-right: 10px;
+}
+
+.nav-link:hover{
+    color: rgba(34, 223, 223, 0.89) !important;
+}
+
+  nav a {
+    transition: 0.1s ease-in-out;
+    
+    font-size: 16px;
+    text-decoration: none;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    padding: 20px 0;
+    margin: 0 5px;
+    font-size: 17px;
+  }
+ 
+
+.cards {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+
+  
+}
+
+
+.container {
+  padding: 2px 14px;
+}
+
+
+
+ .nav-item.active {
+border-bottom: 1px solid black;
+ }
+
+.card .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{color: rgba(34, 223, 223, 0.89) !important;}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+  width: 100%%;
+
+
+  margin-left: auto;
+  margin-right: auto;
+ font-family: 'Roboto', sans-serif;
+
+  
+}
+.card  {
+  max-height: 1200px;
+}
+
+.card:hover {
+  box-shadow: 0 6px 8px 0 rgba(0,0,0,0.4);
+
+}
+
+/*
+.card {
+  margin: 30px auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+  background-image: url('https://i.redd.it/b3esnz5ra34y.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  transition: 0.4s;
+}
+*/
+
+
+@media screen and (max-width: 300px) {
+  .nav-item.active {
+border-bottom: transparent;
+
+ }
+}
+
+
+
+@media screen and (max-width: 991px) {
+  .nav-item.active {
+border-bottom: transparent;
+}
+}
+
+
+
+}
+
+
+
+
+ul {
+  list-style: square;
+}
